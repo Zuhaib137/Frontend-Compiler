@@ -1,8 +1,10 @@
-import Compiler from "./pages/Compiler";
+import Compiler from "../src/Pages/Compiler";
 
 
 const App = () => {
-  return <Compiler />;
+  return <>
+    <Compiler />;
+  </>
 }
 
 export default App;
