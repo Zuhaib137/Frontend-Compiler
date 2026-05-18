@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import CompilerDropdown from "../components/CompilerDropdown";
+import CompilerDropdown from "../../src/Components/CompilerDropdown";
 
-import ReactCompiler from "../components/compilers/ReactCompiler";
+import ReactCompiler from "../../src/Components/Compilers/ReactCompiler";
 
-import WebCompiler from "../components/compilers/WebCompiler";
+import WebCompiler from "../../src/Components/Compilers/WebCompiler";
 
 const Compiler = () => {
 
